@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,oHAAI,CEAZ,UAAU,CAAV,SAAU,CACN,IAAI,CACA,SAAS,CAAE,QAAQ,CAEvB,GAAG,CACC,SAAS,CAAE,UAAU,CAEzB,EAAE,CACE,SAAS,CAAE,QAAQ,EFJ3B,AAAA,CAAC,AAAC,CACE,WAAW,CAAE,qBAAqB,CAClC,WAAW,CAAE,oBAAoB,CACpC,AACD,AAAA,UAAU,AAAC,CACP,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,MAAM,CACjB,AGXD,AAAA,MAAM,AAAC,CACL,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,aAAa,CACtB,UAAU,CAAE,yBAAyB,CAAC,MAAM,CAAC,YAAc,CAAC,SAAS,CAsCtE,AArCE,AAAD,YAAO,AAAC,CACR,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,IAAI,CACZ,IAAI,CAAE,KAAK,CACX,GAAG,CAAE,IAAI,CACR,AACA,AAAD,aAAQ,AAAC,CACT,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,sBAAsB,CAC9B,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,IAAI,CACf,AACA,AAAD,cAAS,AAAC,CACV,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,qBAAqB,CAC7B,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,IAAI,CACf,AACA,AAAD,cAAS,AAAC,CACR,WAAW,CAAE,IAAI,CACjB,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,GAAG,CAAE,KAAK,CACV,WAAW,CAAE,SAAS,CACtB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,KAAK,CAChB,WAAW,CAAE,IAAI,CACjB,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,MAAM,CAClB,cAAc,CAAE,MAAM,CACtB,KAAK,CFvCI,IAAO,CEwCjB",
+    "sources": [
+        "../../src/sass/style.scss",
+        "../../src/sass/base/_variables.scss",
+        "../../src/sass/base/_animations.scss",
+        "../../src/sass/blocks/_promo.scss",
+        "../../src/sass/blocks/_header.scss",
+        "../../src/sass/blocks/_buttons.scss",
+        "../../src/sass/blocks/_advantages.scss",
+        "../../src/sass/blocks/_titles.scss",
+        "../../src/sass/blocks/_consultation.scss",
+        "../../src/sass/blocks/_forms.scss",
+        "../../src/sass/blocks/_carousel.scss",
+        "../../src/sass/blocks/_catalog.scss",
+        "../../src/sass/blocks/_feed.scss",
+        "../../src/sass/blocks/_footer.scss",
+        "../../src/sass/blocks/_modal.scss",
+        "../../src/sass/blocks/_pageup.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
