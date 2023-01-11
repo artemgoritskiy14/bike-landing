@@ -221,7 +221,6 @@
     display: -ms-flexbox;
     display: flex;
     text-align: center;
-    background: url("../img/micel-bike.png") center center/cover no-repeat;
   }
   .promo__phone {
     display: -webkit-box;
