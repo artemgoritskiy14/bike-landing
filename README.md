@@ -1,2 +1,1 @@
-# bike-landing
-# bike-landing
+# Here will be small description of Bike Landing Page
