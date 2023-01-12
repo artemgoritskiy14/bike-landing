@@ -1,26 +1,29 @@
 .promo {
-  min-height: 781px;
+  min-height: 785px;
   padding: 21px 0 93px 0;
   background: url("../img/bike_bg.png") center (center/cover) no-repeat;
+  .container {
+    max-width: 1400px;
+    display: flex;
+    justify-content: right;
+  }
   &__logo {
-  position: absolute;
-  width: 187px;
-  height: 56px;
-  left: 120px;
-  top: 36px;
+    position: absolute;
+    width: 187px;
+    height: 56px;
+    left: 120px;
+    top: 36px;
   }
   &__phone {
-  display: flex;
-  margin: -25px 108px 0 1048px;
-  right: 1000px;
-  width: 32px;
-  height: 32px;
-  background: none;
-  cursor: pointer;
+    margin-top: 15px;
+    margin-right: 32px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
   }
   &__vector {
-    display: flex;
-    margin: 18px 108px 0px 1112px;
+    margin-top: 20px;
+    margin-right: 10px;
     width: 24px;
     height: 16px;
     background: none;
@@ -29,17 +32,16 @@
   &__header {
     margin-left: 68px;
     margin-right: 68px;
-    position: absolute;
+    position: relative;
     width: 803px;
     height: 100px;
     top: 480px;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 900;
     font-size: 100px;
-    line-height: 100%;
+    margin: auto;
     display: flex;
-    text-align: center;
+    // text-align: left;
     letter-spacing: -1.5px;
     color: $main-color;
   }
