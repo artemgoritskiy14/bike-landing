@@ -1,0 +1,48 @@
+.burger {
+  cursor: pointer;
+
+  &__line {
+    display: flex;
+    margin-top: 28px;
+    border-radius: 2px;
+    justify-content: flex-end;
+    position: relative;
+    width: 32px;
+    height: 3px;
+    background: $main-color;
+
+    &:before {
+      content: "";
+      position: absolute;
+      border-radius: 2px;
+      top: 7px;
+      display: block;
+      width: 32px;
+      height: 3px;
+      background: $main-color;
+      border: 15px;
+      transition: all 0.5s;
+    }
+
+    &:after {
+      content: "";
+      border-radius: 2px;
+      position: absolute;
+      bottom: 7px;
+      display: block;
+      width: 32px;
+      height: 3px;
+      background: $main-color;
+      transition: all 0.5s;
+    }
+  }
+
+  &:hover &__line {
+    &:before {
+      width: 60%;
+    }
+    &:after {
+      width: 40%;
+    }
+  }
+}
