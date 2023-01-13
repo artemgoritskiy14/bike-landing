@@ -21,48 +21,6 @@
     height: 32px;
     cursor: pointer;
   }
-  &__burger {
-    display: flex;
-    margin-top: 28px;
-    border-radius: 2px;
-    justify-content: flex-end;
-    position: relative;
-    width: 32px;
-    height: 3px;
-    background: $main-color;
-    cursor: pointer;
-
-    &:before {
-      content: '';
-      position: absolute;
-      border-radius: 2px;
-      top: 7px;
-      display: block;
-      width: 32px;
-      height: 3px;
-      background: $main-color;
-      border: 15px;
-    }
-
-    &:after {
-      content: '';
-      border-radius: 2px;
-      position: absolute;
-      bottom: 7px;
-      display: block;
-      width: 32px;
-      height: 3px;
-      background: $main-color;
-    }
-      &:hover {
-        &:before {
-          width: 60%;
-        }
-        &:after  {
-          width: 40%;
-        }
-      }
-  }
   &__header {
     margin-left: 68px;
     margin-right: 68px;
@@ -70,7 +28,7 @@
     width: 803px;
     height: 100px;
     top: 480px;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 900;
     font-size: 100px;
     margin: auto;
