@@ -41,13 +41,50 @@
   cursor: pointer;
 }
 
-.promo__vector {
-  margin-top: 20px;
-  margin-right: 10px;
-  width: 24px;
-  height: 16px;
-  background: none;
-  cursor: pointer;
+.promo__burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 15px;
+  border-radius: 2px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  width: 50px;
+  height: 5px;
+  background: #ffffff;
+}
+
+.promo__burger:before {
+  content: '';
+  position: absolute;
+  border-radius: 2px;
+  top: 15px;
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: #ffffff;
+  border: 15px;
+}
+
+.promo__burger:after {
+  content: '';
+  border-radius: 2px;
+  position: absolute;
+  top: -15px;
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: #ffffff;
+}
+
+.promo__burger:hover:before {
+  width: 50%;
+}
+
+.promo__burger:hover:after {
+  width: 20px;
 }
 
 .promo__header {

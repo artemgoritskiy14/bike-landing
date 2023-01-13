@@ -1,0 +1,17 @@
+.catalog {
+    background-color: #000000de;
+    height: 946px;
+    margin-top: -53px;
+    &__text {
+        display: flex;
+        padding-left: 381px;
+        margin-top: -110px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 140%;
+        width: 498px;
+        color: $main-color;
+    }
+}

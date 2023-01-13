@@ -21,13 +21,47 @@
     height: 32px;
     cursor: pointer;
   }
-  &__vector {
-    margin-top: 20px;
-    margin-right: 10px;
-    width: 24px;
-    height: 16px;
-    background: none;
+  &__burger {
+    display: flex;
+    margin-top: 28px;
+    border-radius: 2px;
+    justify-content: flex-end;
+    position: relative;
+    width: 32px;
+    height: 3px;
+    background: $main-color;
     cursor: pointer;
+
+    &:before {
+      content: '';
+      position: absolute;
+      border-radius: 2px;
+      top: 7px;
+      display: block;
+      width: 32px;
+      height: 3px;
+      background: $main-color;
+      border: 15px;
+    }
+
+    &:after {
+      content: '';
+      border-radius: 2px;
+      position: absolute;
+      bottom: 7px;
+      display: block;
+      width: 32px;
+      height: 3px;
+      background: $main-color;
+    }
+      &:hover {
+        &:before {
+          width: 60%;
+        }
+        &:after  {
+          width: 40%;
+        }
+      }
   }
   &__header {
     margin-left: 68px;
@@ -41,7 +75,6 @@
     font-size: 100px;
     margin: auto;
     display: flex;
-    // text-align: left;
     letter-spacing: -1.5px;
     color: $main-color;
   }
