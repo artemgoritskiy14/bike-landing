@@ -1,6 +1,6 @@
 .catalog {
     background-color: #1d1d1d;
-    height: 946px;
+    height: 1018px;
     margin-top: -53px;
     &__text {
         display: flex;
@@ -13,5 +13,39 @@
         line-height: 140%;
         width: 498px;
         color: $main-color;
+    }
+    &__compare {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 48px;
+        width: 1060px;
+    }
+    &__one {
+        margin-right: 35px;
+        width: 324px;
+        height: 454px;
+        color: $main-color;
+    }
+    &__sporty {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: $main-color;
+    }
+    &__coment {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+        margin-top: -12px;
+    }
+    &__cost {
+        font-family: 'Poppins';
+        margin-top: 8px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
     }
 }
