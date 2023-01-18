@@ -13,18 +13,37 @@
         line-height: 140%;
         width: 498px;
         color: $main-color;
+
+@media ( max-width: 1066px) {
+    width: 442px;
+}
+    }
+    .container {
+@media (max-width: 1066px) {
+    width: 650px;
+        }
     }
     &__compare {
         display: flex;
         margin: 0 auto;
         margin-top: 48px;
         width: 1060px;
+
+@media (max-width: 1066px) {
+    width: 853px;
+}
+
     }
     &__one {
         margin-right: 35px;
         width: 324px;
         height: 454px;
         color: $main-color;
+
+@media (max-width: 1066px) {
+    width: 261px;
+    height: 454px;
+}
     }
     &__sporty {
         font-family: 'Poppins';
@@ -47,5 +66,10 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 140%;
+    }
+    &__img {
+@media ( max-width: 1066px) {
+    width: 261px;
+}
     }
 }
