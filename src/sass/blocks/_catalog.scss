@@ -2,6 +2,10 @@
     background-color: #1d1d1d;
     height: 1018px;
     margin-top: -53px;
+    &__container {
+        width: 840px;
+        margin: 0 auto;
+    }
     &__text {
         display: flex;
         padding-left: 381px;
