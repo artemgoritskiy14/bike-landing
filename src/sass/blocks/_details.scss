@@ -1,5 +1,5 @@
 .details {
-    min-height: 1660px;
+    min-height: 1700px;
     margin-top: -164px;
     background-color: #1d1d1d;
     &__info {
@@ -30,5 +30,38 @@
         line-height: 140%;
         margin-top: 15px;
         color: $main_color;
+    }
+    &__btn {
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 289px;
+        height: 59px;
+    }
+    &__button {
+        display: block;
+        margin: 60px auto 0 auto;
+        width: 259px;
+        height: 63px;
+        color: $main-color;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        border-radius: 40px;
+        cursor: pointer;
+        border: none;
+    }
+    &__link {
+        width: 275px;
+        height: 42px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 27px;
+        text-align: center;
+        color: #1d1d1d;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-top: 15px;
     }
 }

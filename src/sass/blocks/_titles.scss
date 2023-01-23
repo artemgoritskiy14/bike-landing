@@ -50,3 +50,26 @@
     font-size: 35px;
 }
 }
+
+.details__title-bike {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 164px;
+    width: 354px;
+    height: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    color: $main-color;
+
+@media (max-width: 744px) { 
+    width: 288px;
+    font-size: 52px;
+}
+
+@media (max-width: 320px) {
+    width: 270px;
+    font-size: 35px;
+}
+}
