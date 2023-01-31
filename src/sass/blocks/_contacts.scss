@@ -1,0 +1,52 @@
+.contacts {
+    height: 750px;
+    background-color: #1d1d1d;
+    &__forms {
+        width: 1180px;
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+    &__message {
+        outline: none;
+        display: flex;
+        height: 148px;
+        background: #F8F8FA;
+        border-radius: 16px;
+        padding: 14px 16px;
+    }
+    &__button {
+        display: block;
+        margin: 32px auto 0 auto;
+        width: 411px;
+        height: 56px;
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: capitalize;
+        border-radius: 40px;
+        color: #000;
+        font-family: 'Poppins';
+        font-style: normal;
+        cursor: pointer;
+        border: none;
+        &:hover {
+            background: $main-color;
+            box-shadow: 1px 4px 16px rgba(232, 232, 240, 0.4);
+            transition: all 0.4s;
+        }
+    }
+    &__container {
+        display: flex;
+        margin: 0 auto;
+        color: $main-color;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-end;
+        font-size: 18px;
+        width: 655px;
+        margin-top: -392px;
+    }
+    &__phone {
+        margin-bottom: 24px;
+    }
+}

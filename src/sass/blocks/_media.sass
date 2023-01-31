@@ -28,6 +28,9 @@
         &__twoimage
             width: 225px
             height: 255px
+        &__twoimage-bike
+            width: 225px
+            height: 255px
 
 @media  ( max-width:  744px)
     .promo
@@ -44,12 +47,11 @@
             max-width: 590px
     
     .catalog 
-        height: 1880px
-        .catalog
-            &__container
-                margin: 0 auto 
-                width: 120px
-                padding: 0px
+        height: 2018px
+        &__container
+            margin: 0 auto 
+            width: 120px
+            padding: 0px
         &__text 
             width: 268px
             font-size: 15px
@@ -70,6 +72,9 @@
         &__twoimage 
             width: 184px
             height: 187px
+        &__twoimage-bike
+            width: 184px
+            height: 187px
         &__text
             width: 604px
         &__btn
@@ -81,8 +86,41 @@
             width: 394px
             height: 56px
     
+@media ( max-width: 636px) 
+    .catalog
+        &__text
+            padding-left: 50px
+    .details   
+        &__info 
+            width: 450px
+        &__image 
+            width: 307px
+            height: 171px
+            margin-right: 14px  
+        &__twoimage 
+            width: 125px
+            height: 171px
+        &__twoimage-bike
+            width: 125px
+            height: 171px
+            margin-right: 14px
+        &__text
+            width: 450px
 
-@media  ( max-width: 320px)
+@media ( max-width: 490px)
+    .promo
+        &__header
+            width: 324px
+            height: 93px
+            font-size: 42px
+
+    .catalog__container
+        margin: 0 auto
+        width: 325px
+        margin-top: 100px
+        padding-left: 0px  
+
+@media  ( max-width:  320px)
     .promo
         min-height: 480px
         &__logo
@@ -109,11 +147,13 @@
     .catalog 
         height: 1632px
         &__container 
-            width: 280px
+            margin: 0 auto
+            width: 270px
+            padding: 0
         &__text 
             width: 280px
-            margin-top: 10px
-            margin-left: -375px
+            margin-top: -20px
+            padding-left: 0px
         &__compare 
             width: 225px
             font-size: 36px
@@ -123,3 +163,32 @@
             height: 423px
             margin-top: -64px
             padding: 0px
+        
+    .details 
+        min-height: 1320px
+        &__info
+            width: 278px
+        &__image
+            width: 130px
+            height: 130px
+            margin-right: 14px
+        &__twoimage 
+            width: 130px
+            height: 130px
+        &__twoimage-bike
+            width: 130px
+            height: 130px
+        &__text
+            width: 281px    
+            height: 95px
+        &__sporty
+            width: 278px
+            font-size: 20px
+        &__btn
+            margin-top: 0
+            width: 253px
+            height: 56px
+        &__button
+            margin: 120px auto 0 auto
+            width: 252px
+            height: 46px

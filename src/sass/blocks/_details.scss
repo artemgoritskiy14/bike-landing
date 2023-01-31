@@ -1,6 +1,6 @@
 .details {
     min-height: 1700px;
-    margin-top: -164px;
+    margin-top: -165px;
     background-color: #1d1d1d;
     &__info {
         margin: 0 auto;
@@ -45,10 +45,15 @@
         color: $main-color;
         font-size: 18px;
         font-weight: 400;
-        text-transform: uppercase;
+        text-transform: capitalize;
         border-radius: 40px;
         cursor: pointer;
         border: none;
+        &:hover {
+            background: $main-color;
+            box-shadow: 1px 4px 16px rgba(232, 232, 240, 0.4);
+            transition: all 0.4s;
+        }
     }
     &__link {
         width: 275px;
@@ -63,5 +68,8 @@
         text-decoration: none;
         margin: 0 auto;
         margin-top: 15px;
+    }
+    &__twoimage-bike {
+        margin-right: 24px;
     }
 }
