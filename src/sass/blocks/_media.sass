@@ -11,14 +11,25 @@
             margin: 0 auto 
             width: 680px
             padding: 0px
-
+        &__text
+            width: 464px
     .details
         &__info
             width: 1009px
         &__image
             width: 657px
 
+    .contacts 
+        &__forms 
+            width: 975px
+
 @media  ( max-width:  1010px)
+    .catalog
+        &__text
+            width: 330px
+            padding-left: 320px
+            margin-top: -130px
+
     .details
         &__info
             width: 778px
@@ -32,22 +43,13 @@
             width: 225px
             height: 255px
 
-@media  ( max-width:  744px)
-    .promo
-        &__logo
-            width: 156px
-            height: 48px
-            left: 87px
-            top: 44px
-        &__header 
-            width: 506px
-            height: 93px
-            font-size: 64px
-        .container
-            max-width: 590px
-    
+    .contacts 
+        &__forms 
+            width: 745px
+
+@media ( max-width:  860px)
     .catalog 
-        height: 2018px
+        min-height: 1945px
         &__container
             margin: 0 auto 
             width: 120px
@@ -61,9 +63,66 @@
             width: 250px
         &__one
             padding-left: 0px
+    
+    .details
+        &__info
+            width: 673px
+        &__image
+            width: 420px
+            height: 255px
+        &__twoimage
+            width: 225px
+            height: 255px
+        &__twoimage-bike
+            width: 225px
+            height: 255px
 
+    .contacts 
+        margin-top: -125px
+
+@media  ( max-width:  744px)
+    .promo
+        &__logo
+            width: 156px
+            height: 48px
+            left: 87px
+            top: 31px
+        &__header 
+            width: 506px
+            height: 93px
+            font-size: 64px
+        .container
+            max-width: 590px
+    
+    .catalog 
+        height: 1945px
+        &__container
+            margin: 0 auto 
+            width: 120px
+            padding: 0px
+        &__text 
+            width: 247px
+            font-size: 15px
+            padding-left: 110px
+            margin-top: -108px
+        &__compare 
+            flex-direction: column
+            width: 250px
+        &__one
+            padding-left: 0px
+
+    .contacts 
+        margin-top: -125px
+        &__forms
+            width: 540px
+        &__button
+            margin: 24px auto 0 auto
+            width: 280px
+        &__container
+            width: 460px
+            margin-top: -386px
     .details 
-        min-height: 1320px
+        min-height: 1425px
         &__info
             width: 604px
         &__image
@@ -87,9 +146,13 @@
             height: 56px
     
 @media ( max-width: 636px) 
+    .promo
     .catalog
+        &__container
+            width: 565px
         &__text
-            padding-left: 50px
+            margin-top: 0px
+            padding-left: 0px
     .details   
         &__info 
             width: 450px
@@ -107,6 +170,36 @@
         &__text
             width: 450px
 
+@media ( max-width: 560px)
+    .catalog
+        &__container
+            margin: 0 auto
+            width: 400px
+            padding: 0
+            margin-top: 0px
+        &__text
+            padding-left: 0
+            margin-top: -20px
+
+@media ( max-width: 540px)
+    .contacts
+        min-height: 980px
+        &__forms
+            width: 280px
+        &__container
+            display: flex
+            margin-top: 48px
+            width: 280px
+            align-content: flex-start
+    .footer
+        height: 200px
+
+@media ( max-width:  505px)
+    .promo
+        &__header
+            width: 415px
+            font-style: 53px
+
 @media ( max-width: 490px)
     .promo
         &__header
@@ -119,6 +212,72 @@
         width: 325px
         margin-top: 100px
         padding-left: 0px  
+
+@media ( max-width:  460px)
+    .catalog 
+        &__container
+            margin-top: 45px
+    .details
+        min-height: 1300px
+        &__image
+            width: 233px
+            height: 125px
+        &__twoimage
+            width: 125px
+            height: 125px
+        &__twoimage-bike
+            width: 125px
+            height: 125px
+        &__text
+            width: 380px
+        &__info
+            width: 376px
+            margin-bottom: 70px
+        &__button
+            margin: 110px auto 0 auto
+
+@media ( max-width:  395px)
+    .promo
+        &__logo
+            left: 20px
+            top: 31px
+        &__phone
+            margin-right: 15px
+    .details
+        min-height: 1470px
+        margin-top: -210px
+        &__info
+            width: 278px
+            margin-bottom: 110px
+        &__image
+            width: 130px
+            height: 125px
+        &__twoimage
+            width: 130px
+            height: 125px
+        &__twoimage-bike
+            width: 130px
+            height: 125px
+        &__btn
+            width: 290px
+        &__button
+            margin: 180px auto 0 auto
+            width: 290px
+        &__text
+            width: 278px
+    .contacts
+        &__forms
+            margin-top: 30px
+
+@media  ( max-width:  325px)
+    .promo
+        min-height: 610px
+        &__header
+            width: 290px
+            font-size: 37px 
+    .catalog 
+        &__container
+            width: 260px
 
 @media  ( max-width:  320px)
     .promo
@@ -166,6 +325,7 @@
         
     .details 
         min-height: 1320px
+        margin-top: -500px
         &__info
             width: 278px
         &__image
@@ -192,3 +352,5 @@
             margin: 120px auto 0 auto
             width: 252px
             height: 46px
+    .contacts
+        margin: 0px
